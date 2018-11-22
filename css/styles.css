@@ -2,4 +2,65 @@
 body {
 	background-color: #F0ECEE;
 	font-family: 'Fira Sans', sans-serif;
+	padding: 5px 15px;
+	color: #88898B;
+	font-size: 16px;
+}
+
+h1 {
+	color: #000;
+	font-weight: 600;
+	font-size: 20	px;
+}
+
+h2 {
+	font-size: 26px;
+	color: #000;
+	font-weight: 600;
+}
+
+.highlight {
+	color: #FF4850;
+}
+
+
+#main-nav ul {
+	list-style-type: none;
+	padding: 0;
+	font-size: 18px;
+}
+
+#main-nav a:link, #main-nav a:visited {
+	color: #88898B;
+	text-decoration: none;
+}
+
+#main-nav a:hover, #main-nav a:active {
+	color: #FF4850;
+}
+
+p {
+	font-size: 15px;
+	line-height: 13px;
+	font-weight: 300;
+}
+
+.button {
+	background-color: #FF4850;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	text-shadow: none;
+	box-shadow: none;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.button:hover {
+	background-color: #CCC;
 }
