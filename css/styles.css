@@ -10,7 +10,7 @@ body {
 h1 {
 	color: #000;
 	font-weight: 600;
-	font-size: 20	px;
+	font-size: 20px;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
 #main-nav ul {
 	list-style-type: none;
 	padding: 0;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 #main-nav a:link, #main-nav a:visited {
@@ -68,9 +68,13 @@ p {
 @media screen and (min-width: 768px) {
 	
 	body {
+		
+		padding: 30px 60px;
 		background: #F0ECEE url('../img/bulldog.jpg') fixed no-repeat right bottom;
-		background-size: 80%;
-		/*background-image: url("../img/bulldog.jpg");
+		background-size: 85%;
+		
+		/*
+		background-image: url("../img/bulldog.jpg");
 		background-position: bottom 5px right 7px;
 		background-repeat: no-repeat;
 		*/
@@ -90,12 +94,40 @@ p {
 		align-items: center;
 	}
 	
-	ul {
+	#main-nav ul {
 		display: flex;
-		align-items: right;
+	}
+	
+	#main-nav li { 
+		padding-right: 20px; 
 	}
 	
 	.button { 
 		width: auto;
+	}
+	
+	h2 {
+		font-size: 32px;
+	}
+	
+	p {
+		font-size: 20px;
+		line-height: 19px;
+	}
+	
+	.call-out {
+		width: 545px;
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		resize: vertical;
+		overflow: auto;
+	}
+	
+	.main-content {
+		resize: vertical;
+  overflow: auto;
+		
 	}
 }
